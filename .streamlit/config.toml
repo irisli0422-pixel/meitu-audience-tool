@@ -1,0 +1,18 @@
+# ============================================================
+# Streamlit 主题配置 —— 美图秀秀品牌视觉
+# 主色 #F11D48（美图红）/ 辅助浅粉 #FFE4EC / 白底 / 深灰字
+# ============================================================
+[theme]
+primaryColor = "#F11D48"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFE4EC"
+textColor = "#333333"
+font = "sans serif"
+
+[server]
+# 上传/运行相关的基础设置
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false

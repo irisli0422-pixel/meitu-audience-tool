@@ -1,0 +1,19 @@
+# 机密配置（含 API Key 和登录密码），绝对不要提交
+.streamlit/secrets.toml
+
+# 生成的文件与运行数据
+output/
+history.json
+usage.json
+usage_log.json
+
+# Python 运行产物
+.venv/
+__pycache__/
+*.pyc
+
+# 本地运行日志
+streamlit.log
+
+# macOS
+.DS_Store
